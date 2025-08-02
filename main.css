@@ -89,26 +89,29 @@ button{
     font-size: 1rem;
 }
 
+fieldset{
+    padding: 1.2rem;
+}
+.form:focus{
+    border: none;
+}
 #me, #works, #contact{
     line-height: 2;
 }
 
 footer{
-    background: #000;
+    background: var(--bg);
     display: flex;
     line-height: 1.2;
     display: flex;
     flex-direction: column;
     line-height: 1.4;
-    padding: 2rem
+    padding: 2rem;
+    color: #fff;
 }
 
 #me, #works, #contact{
     padding: 2rem;
     color: #fff;
     background:var(--bg)
-}
-
-@media (min-width: 700px) {
-    
 }
