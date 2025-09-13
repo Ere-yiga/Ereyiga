@@ -1,110 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="I am Ereyiga, a developer and AI enthusiast">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="I am Ereyiga, a developer and AI enthusiast"
+    />
     <title>Ereyiga</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <link rel="shortcut icon" href="fav.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="fav.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="#me">Me</a></li>
-                    <li><a href="#works">My Works</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        
+      <h1 class="lg">Ereyiga</h1>
+      <nav>
+        <ul>
+          <li><a href="#me">Me</a></li>
+          <li><a href="#skill_proj">Project & skills</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <article>
-                <h1>Hey there,👋</h1>
-                <h3>It's <span>Ereyiga</span> here,</h3>
-                <p><b>Welcome to my space.</b></p>
-                <button><a href="#contact">Wanna connect?</a></button>
-            </article>
-        </section>
+      <section class="hero">
+        <img src="ere.jpg" alt="eren" class="mepic" />
+        <article class="meere">
+          <h4>Hey there,👋</h4>
+          <h5>It's <span>Ereyiga</span> here, a developer.</h5>
+          <h6><b>Welcome to my space.</b></h6>
+        </article>
+      </section>
 
-        <section id="me">
-            <h2 class="me">So yeah, about me...hmmm🤔...</h2>
-            <p class="">My hero did sell me a little...😂I am Ereyiga, a Mechatronics Engineering student in Universtity of Port Harcourt. <br>Yeah...almost forgot🤦‍♂️🤦‍♂️. I am also a web enthusiast,and currently admitted in PLP, taking the web development course, HTML, CSS and Javascript.</p>
+      <section id="skill_proj">
+        <h2>My skills and project</h2>
+        <div class="skills">
+          <div class="skill">
+            <i class="fa-brands fa-html5"></i>
+            HTML
+          </div>
 
-            <p>I see hardware and software as a super power, hence my journey in both Software and Hardware path</p>
-            
-            <p>I play football too, both on the field and online. Would have been the next Pele if not of Tech🙃🙃.</p>
+          <div class="skill">
+            <i class="fa-brands fa-css3-alt"></i>
+            CSS
+          </div>
 
-            <p>Once again, you are higly welcome to my space. <br>Just in case you'd like to connect with me, <a href="#contact" style="color: gold;font-size: 1.1rem; text-decoration: underline">CLICK ME</a> </p>
-        </section>
+          <div class="skill">
+            <i class="fa-brands fa-square-js"></i>
+            JavaScript
+          </div>
 
-        <section id="works">
-            <h2 class="proj">My Project??</h2>
-            <p>This was proudly sponsored by the love, built with HTML, CSS and JS.</p>
-            <div class="demo"><a href="https://myvalp.netlify.app/" target="_blank" rel="noopener noreferrer">View live</a></div>
-
-        </section>
-
-        <section id="contact">
-            <h3 class="contact">Contat ME...</h3>
-            <p>If you would love to connect with me, do take a moment to fill out this form. See you on the other side</p>
-
-            <form action="">
-                <fieldset>
-                    <legend>Connect with me</legend>
-                    
-                    <div class="form">
-                        <label for="Name">Name</label>
-                        <input type="text" >
-                    </div>
-                    
-                    <div>
-                        <textarea name="" id="" rows="4" cols="30" placeholder="Wanna leave a message😊" class="form" style="margin: 1rem;padding: .4rem"></textarea>
-                    </div>
-                </fieldset>
-
-                <input type="submit">
-            </form>
-        </section>
-
-        <section>
-        </section>
+          <div class="proj">
+            <img src="proj.png" alt="" class="proj_pic" />
+            <a href="">Live demo</a>
+          </div>
+        </div>
+      </section>
     </main>
 
+    <script src="script.js"></script>
     <footer>
-        <div class="intro">
-            <h2>Ereyiga</h2>
-            <p>&copy; 2025</p>
-        </div>
-        
-        <div class="links">
-            <h2>LINKS</h2>
-            <ul> 
-                <li><a href="#me">Me</a></li>
-                <li><a href="#works">My Works</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-        <div class="skills">
-            <h2>SKILLS</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JAVASCRIPT</li>
-                <li>BOOTSTRAP</li>
-                <li>REACT</li>
-                <li>GIT and GITHUB</li>
-            </ul>
-        </div>
-        
-        <a href="./cv.pdf.pdf" download style="background: gold; font-size: 1.1rem; padding: 0 1rem;width: 20%;border-radius: 2rem;">Download CV</a>
+      <p>&copy; Ereyiga 2025</p>
     </footer>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
