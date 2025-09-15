@@ -99,7 +99,7 @@ li {
 }
 
 .proj {
-  border: 3px solid brown;
+  border: 3px solid rgb(200, 72, 72);
   border-radius: 1.2rem;
   padding: 2rem 1.5rem;
   margin-top: 2rem;
@@ -117,7 +117,6 @@ footer {
   font-size: 1.2rem;
 }
 
-/* Responsive styles using media queries only */
 @media (max-width: 900px) {
   header {
     flex-direction: column;
@@ -168,49 +167,5 @@ footer {
   footer {
     font-size: 1rem;
     padding: 1rem 0.5rem;
-  }
-}
-
-/* Hamburger menu styles */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  width: 2.2rem;
-  height: 2.2rem;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-}
-.hamburger span {
-  height: 4px;
-  width: 100%;
-  background: brown;
-  margin: 4px 0;
-  border-radius: 2px;
-  display: block;
-}
-@media (max-width: 900px) {
-  .hamburger {
-    display: flex;
-  }
-  ul {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background: #312a20;
-    position: absolute;
-    top: 4.5rem;
-    left: 0;
-    z-index: 100;
-    padding: 1rem 0;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
-  }
-  ul.active {
-    display: flex;
-  }
-  nav {
-    width: 100%;
-    justify-content: space-between;
   }
 }
